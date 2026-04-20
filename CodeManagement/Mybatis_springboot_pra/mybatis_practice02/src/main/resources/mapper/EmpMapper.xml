@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.EmpMapper">
+    <sql id = "CommomSelect">
+        select id,username,id, username, password, name, gender, image, job, entrydate, dept_id, create_time, update_time
+        from emp
+    </sql>
+
+
+    <update id="update2">
+        update emp
+            <set>
+             <if test="username != null">username = #{username},</if> <!--下面的同样用if标签-->
+            name       = #{name},
+            gender     = #{gender},
+            image      = #{image},
+            job        = #{job},
+            entrydate  = #{entrydate},
+            dept_id    = #{deptId},
+            update_time=#{updateTime}
+            </set>
+        where id = #{id};
+    </update>
+
+
+    <!--    单条记录所封装的类型-->
+    <select id="select3" resultType="pojo.Emp" >
+        <include refid="CommomSelect"/>
+
+        <where>
+        <if test="name != null">
+            name like concat('%', #{name}, '%')
+        </if>
+        <if test="gender != null">
+            and gender = #{gender}
+        </if>
+        <if test="begin != null and end != null">
+            and entrydate between #{begin} and #{end}
+        </if>
+        </where>
+    order by update_time desc;
+    </select>
+
+    <delete id="deleteByID">
+        delete from emp where id in
+        <foreach collection="ids" item="id" separator="," open="("  close=")" >
+            #{id}
+        </foreach>
+    </delete>
+
+
+
+</mapper>

@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    name: tlias_prac
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tlias
+    username: root
+    password: 888888
+  servlet:
+    multipart:
+          max-file-size: 10MB
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
+aliyun:
+  oss:
+    endpoint: https://oss-cn-shenzhen.aliyuncs.com
+    accessKeyId: LTAI5tGLmBJRkh3nHgrsK4tp
+    accessKeySecret: 。。。
+    bucketName: web-practice1007
+
+#spring事务管理日志
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+version表示文档版本号
+students：根元素
+student: 子元素
+id为属性值
+-->
+<students>
+  <student id ="1">
+  <name>黄昏</name>
+  <age>19</age>
+  <sex>男</sex>
+  <score>31</score>
+</student>
+<student id="2">
+  <name>好格</name>
+  <age>19</age>
+  <sex>男</sex>
+  <score>122</score>
+</student>
+  <student id="3">
+    <name>黄与</name>
+    <age>19</age>
+    <sex>女</sex>
+    <score>1223</score>
+  </student>
+</students>
