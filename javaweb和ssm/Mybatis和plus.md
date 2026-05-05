@@ -57,19 +57,19 @@ class MybatisPractice02ApplicationTests {
 
 
 
-![image-20251001201912579](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251001201912579.png)
+![image-20251001201912579](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251001201912579.png)
 
 
 
 引入mybatis相关依赖和配置mybatis数据库连接信息
 
-![屏幕截图(1091)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1091).png)
+![屏幕截图(1091)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1091).png)
 
 
 
 ## 2.mybatis与jdbc比较
 
-![屏幕截图(1096)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1096).png)
+![屏幕截图(1096)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1096).png)
 
 
 
@@ -77,21 +77,21 @@ class MybatisPractice02ApplicationTests {
 
 介绍：
 
-![image-20251002100444498](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251002100444498.png)
+![image-20251002100444498](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251002100444498.png)
 
 所有的数据库连接池都要实现dataSource接口
 
-![image-20251002100305469](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251002100305469.png)
+![image-20251002100305469](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251002100305469.png)
 
 引入druid连接池
 
-![image-20251002100106987](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251002100106987.png)
+![image-20251002100106987](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251002100106987.png)
 
 
 
 ## 4.lombok
 
-![image-20251002103959814](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251002103959814.png)
+![image-20251002103959814](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251002103959814.png)
 
 ```java
 package pojo;
@@ -170,7 +170,7 @@ public class Book {
 
 ## 5. 项目创建流程
 
-![image-20251002112720790](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251002112720790.png)
+![image-20251002112720790](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251002112720790.png)
 
 
 
@@ -203,7 +203,7 @@ class MybatisPractice02ApplicationTests {
 
 ### 2.预编译
 
-![屏幕截图(1108)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1108).png)
+![屏幕截图(1108)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1108).png)
 
 ```java
 @Mapper
@@ -338,7 +338,7 @@ public interface EmpMapper {
 
 查询时的数据封装
 
-![image-20251003140402320](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251003140402320.png)
+![image-20251003140402320](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251003140402320.png)
 
 mapper
 
@@ -380,7 +380,7 @@ public interface EmpMapper {
 
 **三条规范,很重要**
 
-![image-20251003154642377](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251003154642377.png)
+![image-20251003154642377](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251003154642377.png)
 
 mapper
 
@@ -427,7 +427,7 @@ ps:如果使用一些简单的增删改查,可以用注解;如果要用复杂的
 
 先看总结
 
-![image-20251003165825558](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251003165825558.png)
+![image-20251003165825558](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251003165825558.png)
 
 约束在mybatis中文网上找，约束：
 
@@ -616,65 +616,65 @@ xml
 
 # MybatisPlus
 
-![image-20251106150804418](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106150804418.png)
+![image-20251106150804418](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106150804418.png)
 
 ## 2. 标准CRUD
 
-![image-20251106192724085](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106192724085.png)
+![image-20251106192724085](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106192724085.png)
 
 ## 4.分页查询
 
-![image-20251106152706824](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106152706824.png)
+![image-20251106152706824](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106152706824.png)
 
-![image-20251106152724054](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106152724054.png)
+![image-20251106152724054](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106152724054.png)
 
 ### 4.2**mybatis日志**
 
-![image-20251106152823034](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106152823034.png)
+![image-20251106152823034](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106152823034.png)
 
-![image-20251106173039443](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106173039443.png)
+![image-20251106173039443](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106173039443.png)
 
 ## 5. 条件查询的三种方式
 
-![image-20251106165603329](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106165603329.png)
+![image-20251106165603329](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106165603329.png)
 
 **lambda**
 
-![image-20251106170533788](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106170533788.png)
+![image-20251106170533788](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106170533788.png)
 
-![image-20251106170453059](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106170453059.png)
+![image-20251106170453059](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106170453059.png)
 
 
 
 ## 6. null 值处理
 
-![image-20251106171806631](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106171806631.png)
+![image-20251106171806631](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106171806631.png)
 
 
 
 ## 7.查询投影
 
-![image-20251106173447895](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106173447895.png)
+![image-20251106173447895](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106173447895.png)
 
 
 
 ## 9. 映射匹配兼容性
 
-![image-20251106180813222](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106180813222.png)
+![image-20251106180813222](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106180813222.png)
 
 
 
 ## 10. id生成策略
 
-![image-20251106192422331](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106192422331.png)
+![image-20251106192422331](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106192422331.png)
 
-![image-20251106192433080](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106192433080.png)
+![image-20251106192433080](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106192433080.png)
 
 
 
 ## 11.逻辑删除
 
-![image-20251106200615552](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106200615552.png)
+![image-20251106200615552](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106200615552.png)
 
 
 
@@ -682,6 +682,6 @@ xml
 
 
 
-![image-20251106203035258](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106203035258.png)
+![image-20251106203035258](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251106203035258.png)
 
-![image-20251107140055416](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251107140055416.png)
+![image-20251107140055416](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251107140055416.png)

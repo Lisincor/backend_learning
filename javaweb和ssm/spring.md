@@ -2,17 +2,17 @@
 
 注意：容器，AOP，Data
 
-![屏幕截图(1239)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1239).png)、
+![屏幕截图(1239)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1239).png)、
 
 学习路线：
 
-![image-20251016174754642](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251016174754642.png)
+![image-20251016174754642](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251016174754642.png)
 
 
 
 ## 1.IoC和DI入门案例：
 
-![屏幕截图(1241)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1241).png)
+![屏幕截图(1241)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1241).png)
 
 ```java
 ```
@@ -21,9 +21,9 @@
 
 DI：
 
-![屏幕截图(1242)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1242).png)
+![屏幕截图(1242)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1242).png)
 
-![image-20251016191217274](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251016191217274.png)
+![image-20251016191217274](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251016191217274.png)
 
 
 
@@ -39,21 +39,21 @@ DI：
 
 工厂bean的实现类
 
-![image-20251016214454630](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251016214454630.png)
+![image-20251016214454630](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251016214454630.png)
 
 **配置**
 
-![image-20251016214615828](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251016214615828.png)
+![image-20251016214615828](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251016214615828.png)
 
 
 
 ## 3.bean的生命周期（不重要）
 
-![屏幕截图(1255)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1255).png)
+![屏幕截图(1255)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1255).png)
 
 
 
-![屏幕截图(1256)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1256).png)
+![屏幕截图(1256)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1256).png)
 
 
 
@@ -63,19 +63,19 @@ DI：
 
 简单类型的注入用 value = ，引用类型的注入用 ref
 
-![image-20251017133247173](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017133247173.png)
+![image-20251017133247173](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017133247173.png)
 
-![image-20251017133227643](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017133227643.png)
+![image-20251017133227643](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017133227643.png)
 
 ### 构造器注入 
 
 代码：
 
-![屏幕截图(1259)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1259).png)
+![屏幕截图(1259)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1259).png)
 
 配置文件：
 
-![image-20251017133601411](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017133601411.png)
+![image-20251017133601411](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017133601411.png)
 
 
 
@@ -83,27 +83,27 @@ DI：
 
 setter不要删除
 
-![image-20251017134833368](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017134833368.png)
+![image-20251017134833368](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017134833368.png)
 
-![image-20251017134841695](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017134841695.png)
+![image-20251017134841695](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017134841695.png)
 
 
 
 ### 集合注入 （了解即可，一些框架会用）
 
-![image-20251017194711828](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017194711828.png)
+![image-20251017194711828](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017194711828.png)
 
 
 
 ## 5.数据源对象管理
 
-![image-20251017200234154](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017200234154.png)
+![image-20251017200234154](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017200234154.png)
 
 
 
 ## 6.resouce的xml中加载properties文件（麻烦，白雪）
 
-![image-20251017201059482](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017201059482.png)
+![image-20251017201059482](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017201059482.png)
 
 
 
@@ -111,13 +111,13 @@ setter不要删除
 
 spring
 
-![image-20251017201703164](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017201703164.png)
+![image-20251017201703164](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017201703164.png)
 
 ## 8.注解开发定义bean
 
 @Component 自动提交对象到IOC容器，不用在xml中配置
 
-![image-20251017203328638](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017203328638.png)
+![image-20251017203328638](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017203328638.png)
 
 ## 9.配置类注解来喽
 
@@ -125,25 +125,25 @@ spring
 
 @ComponentScan 设定包扫描路径
 
-![image-20251017203154148](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017203154148.png)
+![image-20251017203154148](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017203154148.png)
 
 ### 在配置类上加载其他的配置文件
 
-![image-20251018102309606](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251018102309606.png)
+![image-20251018102309606](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251018102309606.png)
 
-![屏幕截图(1272)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1272).png)
+![屏幕截图(1272)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1272).png)
 
 ## 10.Bean的生命周期
 
 @PostConstruct 是在构造方法后，@PreDestroy是在销毁前
 
-![image-20251017203644070](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017203644070.png)
+![image-20251017203644070](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017203644070.png)
 
 
 
 ## 11.注解开发的依赖注入
 
-![image-20251017210921891](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017210921891.png)
+![image-20251017210921891](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017210921891.png)
 
 @Qualifier 与 @Autowired一起使用，指定IoC容器中bean对象的ID
 
@@ -157,11 +157,11 @@ spring
 
 @Import(第三方类名)导入到核心配置类中
 
-![image-20251017213237550](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017213237550.png)
+![image-20251017213237550](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017213237550.png)
 
 比如说Druid的配置
 
-![image-20251017213511018](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017213511018.png)
+![image-20251017213511018](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017213511018.png)
 
 
 
@@ -169,15 +169,15 @@ spring
 
 如果第三方bean需要依赖其他对象，直接在bean定义方法中声明形参即可，容器会根据类型自动装配
 
-![image-20251017214531897](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017214531897.png)
+![image-20251017214531897](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017214531897.png)
 
-![image-20251017214833719](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017214833719.png)
+![image-20251017214833719](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017214833719.png)
 
 
 
 简单类型（值类型）注入：
 
-![image-20251017214907666](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251017214907666.png)
+![image-20251017214907666](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251017214907666.png)
 
 **例子**
 
@@ -303,11 +303,11 @@ public RocketMQTemplate createMQTemplate() {
 
 没什么好说的,就是 8和9的内容整合然后加上mybatis的API
 
-![image-20251018104827972](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251018104827972.png)
+![image-20251018104827972](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251018104827972.png)
 
-![屏幕截图(1281)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1281).png)
+![屏幕截图(1281)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1281).png)
 
-![屏幕截图(1282)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1282).png)
+![屏幕截图(1282)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1282).png)
 
 
 

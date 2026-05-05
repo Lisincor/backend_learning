@@ -6,7 +6,7 @@
 
 @Transactional注解：通常是在业务层操作，因为业务层通常包含多个业务逻辑的操作；而且一般是加在业务层的增删改的包含多次操作数据库的方法中；也可以加在接口和类中，接口的实现类继承，类中的方法也能进行事务管理
 
-![image-20251012115758019](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251012115758019.png)
+![image-20251012115758019](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251012115758019.png)
 
 
 
@@ -48,21 +48,21 @@
 
 ### 事务的日志配置
 
-![image-20251018130621984](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251018130621984.png)
+![image-20251018130621984](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251018130621984.png)
 
 ## 2.rollbackFor属性
 
-![image-20251012133854888](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251012133854888.png)
+![image-20251012133854888](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251012133854888.png)
 
 ## 3.事务属性的传播行为
 
-![屏幕截图(1185)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1185).png)
+![屏幕截图(1185)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1185).png)
 
 **例子：**
 
 将记录日志的方法设置为创建新的事务
 
-![屏幕截图(1188)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1188).png)
+![屏幕截图(1188)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1188).png)
 
 
 
@@ -125,7 +125,7 @@ public class MyAspect1 {
 
 
 
-![image-20251012144731815](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251012144731815.png)
+![image-20251012144731815](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251012144731815.png)
 
 
 
@@ -135,11 +135,11 @@ public class MyAspect1 {
 
 注意区分连接点和切入点
 
-![image-20251012150025969](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251012150025969.png)
+![image-20251012150025969](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251012150025969.png)
 
 执行流程： 目标对象会先生成代理对象，代理对象交给IOC容器管理
 
-![屏幕截图(1192)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1192).png)
+![屏幕截图(1192)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1192).png)
 
 
 
@@ -198,29 +198,29 @@ public class MyAspect1 {
 
 
 
-![image-20251012153914042](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251012153914042.png)
+![image-20251012153914042](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251012153914042.png)
 
-![image-20251018121818828](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251018121818828.png)
+![image-20251018121818828](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251018121818828.png)
 
 @PointCut注解
 
-![image-20251012153816579](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251012153816579.png)
+![image-20251012153816579](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251012153816579.png)
 
 
 
 ## 4.通知顺序
 
-![image-20251012170842941](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251012170842941.png)
+![image-20251012170842941](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251012170842941.png)
 
 
 
 ## 5.切入点表达式和书写规范（过于繁杂，具体看业务开发）
 
-![屏幕截图(1201)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1201).png)
+![屏幕截图(1201)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1201).png)
 
 书写规范：
 
-![image-20251012173017976](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251012173017976.png)
+![image-20251012173017976](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251012173017976.png)
 
 
 
@@ -228,13 +228,13 @@ public class MyAspect1 {
 
 （图中的是自定义注解）
 
-![image-20251012173517756](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251012173517756.png)
+![image-20251012173517756](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251012173517756.png)
 
 
 
 ## 7.连接点和获取目标方法参数
 
-![image-20251012174609220](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251012174609220.png)
+![image-20251012174609220](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251012174609220.png)
 
 
 

@@ -38,7 +38,7 @@ public class DeptController {
 
 ps:重点是PageHelper插件的应用
 
-![dd](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251006172301485.png)
+![dd](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251006172301485.png)
 
 
 
@@ -48,7 +48,7 @@ ps:重点是PageHelper插件的应用
 
 C:\Users\19776\Desktop\Backend_learn_note\CodeManagement\Mybatis_springboot_pra\tlias_prac
 
-![image-20251007150408767](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251007150408767.png)
+![image-20251007150408767](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251007150408767.png)
 
 
 
@@ -64,7 +64,7 @@ C:\Users\19776\Desktop\Backend_learn_note\CodeManagement\Mybatis_springboot_pra\
 
 大小限制：在application的properities中配置
 
-![image-20251007181114452](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251007181114452.png)
+![image-20251007181114452](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251007181114452.png)
 
 
 
@@ -124,7 +124,7 @@ public class UploaderController {
 
 
 
-![image-20251008162658290](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251008162658290.png)
+![image-20251008162658290](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251008162658290.png)
 
 ```properties
 package com.projectprac.tlias_prac.utils;
@@ -178,9 +178,9 @@ public class AliOSSUtils {
 
 ## yml文件(大多数项目都是用)
 
-![image-20251008164044913](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251008164044913.png)
+![image-20251008164044913](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251008164044913.png)
 
-![image-20251008183149340](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251008183149340.png)
+![image-20251008183149340](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251008183149340.png)
 
 
 

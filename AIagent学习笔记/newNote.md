@@ -4,7 +4,7 @@ adivisor传入lambda表达式修改Advisor属性 chatConversationId
 
 advisors.(adspec -> adspec.param("chat_memory_conversation_id", chatId))
 
-![image-20260402130914569](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260402130914569.png)
+![image-20260402130914569](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260402130914569.png)
 
 # 大模型接入
 
@@ -14,7 +14,7 @@ advisors.(adspec -> adspec.param("chat_memory_conversation_id", chatId))
 
 3和4调用框架
 
-![image-20260330173611118](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260330173611118.png)
+![image-20260330173611118](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260330173611118.png)
 
 
 
@@ -24,7 +24,7 @@ advisors.(adspec -> adspec.param("chat_memory_conversation_id", chatId))
 
 
 
-![image-20260330214139287](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260330214139287.png)
+![image-20260330214139287](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260330214139287.png)
 
 ### 1.系统提示词 
 
@@ -36,17 +36,17 @@ advisors.(adspec -> adspec.param("chat_memory_conversation_id", chatId))
 
 #### ChatClient, Advisor
 
-![image-20260330214541915](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260330214541915.png)
+![image-20260330214541915](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260330214541915.png)
 
-![image-20260330214634871](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260330214634871.png)
+![image-20260330214634871](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260330214634871.png)
 
 
 
 #### ChatMemoryAdvisor 和 ChatMemory
 
-![image-20260330214912687](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260330214912687.png)
+![image-20260330214912687](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260330214912687.png)
 
-![image-20260330215211105](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260330215211105.png)
+![image-20260330215211105](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260330215211105.png)
 
 
 
@@ -56,11 +56,11 @@ advisors.(adspec -> adspec.param("chat_memory_conversation_id", chatId))
 
 第一步：配置ChatMemory，为Bean
 
-![image-20260331175533817](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260331175533817.png)
+![image-20260331175533817](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260331175533817.png)
 
 第二步：编写App
 
-![image-20260331175306349](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260331175306349.png)
+![image-20260331175306349](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260331175306349.png)
 
 
 
@@ -70,13 +70,13 @@ advisors.(adspec -> adspec.param("chat_memory_conversation_id", chatId))
 
 最佳实践
 
-![image-20260331210703318](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260331210703318.png)
+![image-20260331210703318](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260331210703318.png)
 
 ### 2.结构化输出
 
 FormatProvider  和 Converter
 
-![image-20260331212715507](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260331212715507.png)
+![image-20260331212715507](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260331212715507.png)
 
 代码示例：
 
@@ -103,15 +103,15 @@ public LoveReport doChatWithReport(String message, String chatId) {
 
 编写基于文件持久化的对话记忆类 FileBaseChatMemory
 
-![image-20260401200357002](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260401200357002.png)
+![image-20260401200357002](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260401200357002.png)
 
 在ChatClient传入自定义的ChatMemory实现类(FileBaseChatMemory)
 
-![image-20260401200507428](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260401200507428.png)
+![image-20260401200507428](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260401200507428.png)
 
 # 4. RAG 基础
 
-![image-20260401195934711](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260401195934711.png)
+![image-20260401195934711](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260401195934711.png)
 
 
 
@@ -123,7 +123,7 @@ public LoveReport doChatWithReport(String message, String chatId) {
 
 ### 二.文档读取
 
-![image-20260401215223684](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260401215223684.png)
+![image-20260401215223684](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260401215223684.png)
 
 ### 三.向量转换和存储
 
@@ -131,25 +131,25 @@ public LoveReport doChatWithReport(String message, String chatId) {
 
 Spring AI 内置的 VectorStore 基于内存读写的向量数据库
 
-![image-20260402124939294](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260402124939294.png)
+![image-20260402124939294](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260402124939294.png)
 
 
 
 ### 四.查询增强
 
-![image-20260402160555292](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260402160555292.png)
+![image-20260402160555292](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260402160555292.png)
 
-![image-20260402160610512](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260402160610512.png)
+![image-20260402160610512](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260402160610512.png)
 
 上面的那个代码已经过期，用 RetrievalAugmentationAdvisor
 
-![image-20260402173110917](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260402173110917.png)
+![image-20260402173110917](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260402173110917.png)
 
 ## Spring AI + 云知识库
 
 第一步准备云知识库：
 
-![image-20260402170606526](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260402170606526.png)
+![image-20260402170606526](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260402170606526.png)
 
 第二步：Rag开发
 
@@ -159,11 +159,11 @@ DashScopeApi的创建用builder模式，符合版本规范
 
 DocumentRetriever 类用Spring AI Alibaba
 
-![image-20260402170654450](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260402170654450.png)
+![image-20260402170654450](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260402170654450.png)
 
 在开发中使用Advisor的Bean
 
-![image-20260402171003286](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260402171003286.png)
+![image-20260402171003286](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260402171003286.png)
 
 
 
@@ -173,11 +173,11 @@ DocumentRetriever 类用Spring AI Alibaba
 
 
 
-![image-20260402232348929](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260402232348929.png)
+![image-20260402232348929](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260402232348929.png)
 
 
 
-![image-20260402232909034](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260402232909034.png)
+![image-20260402232909034](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260402232909034.png)
 
 ## 向量转换和存储
 
@@ -185,11 +185,11 @@ DocumentRetriever 类用Spring AI Alibaba
 
 配置信息：
 
-![image-20260403160926142](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260403160926142.png)
+![image-20260403160926142](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260403160926142.png)
 
 VectorStore注入
 
-![image-20260402233246432](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260402233246432.png)
+![image-20260402233246432](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260402233246432.png)
 
 ## 文档过滤和检索
 
@@ -209,21 +209,21 @@ VectorStore注入
 
  1.手动标注（单个文档
 
-![image-20260403184149924](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260403184149924.png)
+![image-20260403184149924](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260403184149924.png)
 
   2.代码标注
 
-![image-20260403184044531](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260403184044531.png)
+![image-20260403184044531](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260403184044531.png)
 
 #### 3.Keyword增强器
 
 KeywordMetadataEnricherl类 实现了 DocumentTransformer接口
 
-![image-20260403185349083](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260403185349083.png)
+![image-20260403185349083](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260403185349083.png)
 
 ​		应用：
 
-![image-20260404200703882](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260404200703882.png)
+![image-20260404200703882](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260404200703882.png)
 
 
 
@@ -237,29 +237,29 @@ KeywordMetadataEnricherl类 实现了 DocumentTransformer接口
 
 查询重写效果演示
 
-![image-20260404203126684](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260404203126684.png)
+![image-20260404203126684](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260404203126684.png)
 
 
 
 # 6.工具调用
 
-![image-20260405161711338](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260405161711338.png)
+![image-20260405161711338](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260405161711338.png)
 
 
 
-![image-20260405161720000](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260405161720000.png)
+![image-20260405161720000](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260405161720000.png)
 
 
 
-![image-20260405162125071](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260405162125071.png)
+![image-20260405162125071](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260405162125071.png)
 
-![image-20260405162442892](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260405162442892.png)
+![image-20260405162442892](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260405162442892.png)
 
 
 
-![image-20260405162711474](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260405162711474.png)
+![image-20260405162711474](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260405162711474.png)
 
-![image-20260405162726625](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260405162726625.png)
+![image-20260405162726625](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260405162726625.png)
 
 
 
@@ -269,7 +269,7 @@ Spring AI从 mcpServer.json配置文件读取mcp服务器，自动注入
 
 
 
-![image-20260405222453751](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260405222453751.png)
+![image-20260405222453751](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260405222453751.png)
 
 
 

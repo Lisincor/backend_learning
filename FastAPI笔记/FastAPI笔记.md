@@ -4,11 +4,11 @@
 
 ## 1.路由分发
 
-![屏幕截图(1009)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1009).png)
+![屏幕截图(1009)](https://cdn.jsdelivr.net/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1009).png)
 
 
 
-![屏幕截图(1010)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1010).png)
+![屏幕截图(1010)](https://cdn.jsdelivr.net/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1010).png)
 
 代码演示
 
@@ -78,7 +78,7 @@ async def book():
 
 ## 2.form表单
 
-![屏幕截图(1011)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1011).png)
+![屏幕截图(1011)](https://cdn.jsdelivr.net/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1011).png)
 
 
 
@@ -88,7 +88,7 @@ async def book():
 
 写定了的要写在自匹配的前面如下图的 @app.get("/me/xx") 要写在@app.get("/me/{item_id}") 的前面
 
-![dd](C:\Users\19776\Pictures\Screenshots\屏幕截图(1016).png)
+![dd](https://cdn.jsdelivr.net/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1016).png)
 
 
 

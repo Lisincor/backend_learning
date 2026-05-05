@@ -6,13 +6,13 @@
 
 web开发启动依赖就包括了tomcat(及内嵌tomcat)
 
-![image-20251011194503061](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251011194503061.png)
+![image-20251011194503061](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251011194503061.png)
 
 # Tomcat介绍以及Web服务器
 
-![image-20251011194315057](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251011194315057.png)
+![image-20251011194315057](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251011194315057.png)
 
-![image-20251011194237231](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251011194237231.png)
+![image-20251011194237231](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251011194237231.png)
 
 # 请求
 
@@ -28,7 +28,7 @@ web开发启动依赖就包括了tomcat(及内嵌tomcat)
 
 3.响应对象HttpServiceResponse同理
 
-![image-20251011212748366](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251011212748366.png)
+![image-20251011212748366](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251011212748366.png)
 
 ## 请求头
 
@@ -62,19 +62,19 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 ### 简单参数（springboot方式）
 
-![屏幕截图(1034)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1034).png)
+![屏幕截图(1034)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1034).png)
 
 ### 实体参数
 
-![屏幕截图(1037)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1037).png)
+![屏幕截图(1037)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1037).png)
 
 ### JSon参数 @RequestBody
 
-![屏幕截图(1040)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1040).png)
+![屏幕截图(1040)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1040).png)
 
 ### 路径参数 @PathVariable
 
-![屏幕截图(1042)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1042).png)
+![屏幕截图(1042)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1042).png)
 
 
 
@@ -149,13 +149,13 @@ Spring会默认认为你返回的是一个需要跳转的目的文件名   加�
 
 方法注解，将方法返回值直接相应，如果返回值类型是 实体对象或集合，将会转换为JSON格式
 
-![image-20250928202021836](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20250928202021836.png)
+![image-20250928202021836](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20250928202021836.png)
 
 ### 统一相应结果（设计模式之一）
 
 所有的增删改查操作都要响应一个结果Result(及统一响应结果)
 
-![屏幕截图(1044)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1044).png)
+![屏幕截图(1044)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1044).png)
 
 ```java
 package com.projectprac.tlias_prac.pojo;
@@ -194,11 +194,11 @@ public class Result {
 
 三层架构
 
-![image-20250929174830039](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20250929174830039.png)
+![image-20250929174830039](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20250929174830039.png)
 
 ## IOC&DI介绍
 
-![image-20250930092249825](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20250930092249825.png)
+![image-20250930092249825](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20250930092249825.png)
 
 IOC&&DI实际操作：
 
@@ -206,18 +206,18 @@ Service和DAO层用@Component实现IOC，将对象加载到Bean容器中，
 
 Controller和service层用@Autowired注解实现DI，将Bean容器的对象赋值给
 
-![image-20250930092933307](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20250930092933307.png)
+![image-20250930092933307](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20250930092933307.png)
 
 ## Bean的声明
 
-![屏幕截图(1058)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1058).png)
+![屏幕截图(1058)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1058).png)
 
 bean组件扫描：
 
 将三层组件防止启动类所在包及其子包下
 
-![image-20250930095056299](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20250930095056299.png)
+![image-20250930095056299](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20250930095056299.png)
 
 依赖注入的注解：
 
-<img src="C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20250930095646969.png" alt="image-20250930095646969" style="zoom:33%;" />
+<img src="https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20250930095646969.png" alt="image-20250930095646969" style="zoom:33%;" />
