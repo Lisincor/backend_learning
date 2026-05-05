@@ -4,21 +4,21 @@
 
 maven的jar包管理
 
-![image-20251001175800758](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251001175800758.png)
+image-20251001175800758
 
 maven安装和配置步骤
 
-![image-20251001180329159](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251001180329159.png)
+![image-20251001180329159](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251001180329159.png)
 
 ## 导入maven
 
-![image-20251001183254675](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251001183254675.png)
+![image-20251001183254675](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251001183254675.png)
 
-![image-20251001183349778](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251001183349778.png)
+![image-20251001183349778](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251001183349778.png)
 
 ## 配置依赖
 
-![image-20251001183912328](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251001183912328.png)
+![image-20251001183912328](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251001183912328.png)
 
 ```java
 
@@ -39,25 +39,31 @@ maven安装和配置步骤
 
 
 
-![屏幕截图(1022)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1022).png)
+![屏幕截图(1022)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1022).png)
 
 
 
 ## 生命周期
 
-![image-20251001194235655](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251001194235655.png)
+![image-20251001194235655](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251001194235655.png)
 
 install: 安装jar包到本地仓库，使用时在依赖标名jar包
 
-![image-20251001194257494](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251001194257494.png)
+![image-20251001194257494](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251001194257494.png)
 
 
 
 # Maven高级
 
+## BOM
+
+![image-20260422160807476](C:/Users/19776/AppData/Roaming/Typora/typora-user-images/image-20260422160807476.png)
+
 ## 分模块开发
 
-![屏幕截图(1304)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1304).png)
+
+
+![屏幕截图(1304)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1304).png)
 
 ## 可选依赖和排除依赖
 
@@ -65,25 +71,25 @@ install: 安装jar包到本地仓库，使用时在依赖标名jar包
 
 **在父依赖中写**
 
-![image-20251020200249412](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251020200249412.png)
+![image-20251020200249412](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251020200249412.png)
 
-![屏幕截图(1305)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1305).png)
+![屏幕截图(1305)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1305).png)
 
 排除依赖：
 
 **在子依赖中写**
 
-![image-20251020200347843](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251020200347843.png)
+![image-20251020200347843](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251020200347843.png)
 
-![image-20251020195718624](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251020195718624.png)
+![image-20251020195718624](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251020195718624.png)
 
 
 
 ## 聚合
 
-![image-20251020201014593](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251020201014593.png)
+![image-20251020201014593](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251020201014593.png)
 
-![image-20251020200957913](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251020200957913.png)
+![image-20251020200957913](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251020200957913.png)
 
 
 
@@ -91,15 +97,15 @@ install: 安装jar包到本地仓库，使用时在依赖标名jar包
 
 
 
-![屏幕截图(1311)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1311).png)
+![屏幕截图(1311)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1311).png)
 
-![屏幕截图(1312)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1312).png)
+![屏幕截图(1312)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1312).png)
 
-![屏幕截图(1313)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1313).png)
+![屏幕截图(1313)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1313).png)
 
-![屏幕截图(1314)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1314).png)
+![屏幕截图(1314)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1314).png)
 
-![屏幕截图(1315)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1315).png)
+![屏幕截图(1315)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1315).png)
 
 
 
@@ -178,11 +184,11 @@ xml
 
 1.定义属性
 
-![image-20251021103312538](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251021103312538.png)
+![image-20251021103312538](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251021103312538.png)
 
 2.引用属性
 
-![image-20251020203540092](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251020203540092.png)
+![image-20251020203540092](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251020203540092.png)
 
 
 
@@ -190,12 +196,12 @@ xml
 
 
 
-![屏幕截图(1318)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1318).png)
+![屏幕截图(1318)](https://raw.githubusercontent.com/Lisincor/image-hosting/main/屏幕截图(1318).png)
 
-![image-20251021105338886](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251021105338886.png)
+![image-20251021105338886](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251021105338886.png)
 
 
 
 ## 私服
 
-![image-20251021112353167](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251021112353167.png)
+![image-20251021112353167](https://raw.githubusercontent.com/Lisincor/image-hosting/main/image-20251021112353167.png)
