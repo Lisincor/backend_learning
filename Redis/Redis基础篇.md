@@ -2,19 +2,19 @@
 
 在配置文件配置Redis服务端接口
 
-![image-20260326162640143](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260326162640143.png)
+![image-20260326162640143](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260326162640143.png)
 
 # Redis命令
 
 ## 1. 数据结构
 
-![image-20251024152837109](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251024152837109.png)
+![image-20251024152837109](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251024152837109.png)
 
 
 
 ## 2.通用命令
 
-![image-20251024154312990](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251024154312990.png)
+![image-20251024154312990](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251024154312990.png)
 
 keys *  (性能太低不建议使用)
 
@@ -30,13 +30,13 @@ ttl key_name
 
 ## 3. String类型和基本命令
 
-![image-20251027103503243](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251027103503243.png)
+![image-20251027103503243](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251027103503243.png)
 
 
 
 常见命令：
 
-![image-20251027103440225](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251027103440225.png)
+![image-20251027103440225](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251027103440225.png)
 
 set age 18 
 
@@ -60,7 +60,7 @@ setex (与expire的结合) ： setex age 100 19
 
 ## 4. key的层级存储
 
-![image-20251027104459373](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251027104459373.png)
+![image-20251027104459373](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251027104459373.png)
 
 
 
@@ -68,13 +68,13 @@ setex (与expire的结合) ： setex age 100 19
 
 
 
-![image-20251027105111530](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251027105111530.png)
+![image-20251027105111530](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251027105111530.png)
 
 
 
 ## 6. List常见命令
 
-![image-20251027111057170](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251027111057170.png)
+![image-20251027111057170](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251027111057170.png)
 
 
 
@@ -131,29 +131,29 @@ List<V> range(K key, long start, long end)
 - `-1` 是一个特殊值，它代表列表的最后一个元素。
 - 所以，组合 `(0, -1)` 的意思就是 **“从第一个元素到最后一个元素”**，即**获取整个列表**
 
-![image-20251027111129863](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251027111129863.png)
+![image-20251027111129863](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251027111129863.png)
 
 
 
 ## 7. set类型和常用命令
 
-![image-20251027113535609](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251027113535609.png)
+![image-20251027113535609](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251027113535609.png)
 
 常用命令
 
-![image-20251027113341573](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251027113341573.png)
+![image-20251027113341573](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251027113341573.png)
 
 
 
 ## 8. sortset类型和常用命令
 
-![image-20251027164417340](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251027164417340.png)
+![image-20251027164417340](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251027164417340.png)
 
-![image-20251027164258023](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251027164258023.png)
+![image-20251027164258023](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251027164258023.png)
 
 在命令z字母后加rev，数据按降序排序
 
-![image-20251027164331796](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251027164331796.png)
+![image-20251027164331796](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251027164331796.png)
 
 
 
@@ -163,7 +163,7 @@ List<V> range(K key, long start, long end)
 
 
 
-![image-20251027183134442](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251027183134442.png)
+![image-20251027183134442](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251027183134442.png)
 
 
 
@@ -227,9 +227,9 @@ public class JedisTest01 {
 
 ## 1. 介绍
 
-![屏幕截图(1363)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1363).png)
+![屏幕截图(1363)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1363).png)
 
-![屏幕截图(1364)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1364).png)
+![屏幕截图(1364)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1364).png)
 
 
 
@@ -237,9 +237,9 @@ public class JedisTest01 {
 
 **默认采用jdk序列化**
 
-![image-20251028171959143](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251028171959143.png)
+![image-20251028171959143](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251028171959143.png)
 
-![image-20251028171322676](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251028171322676.png)
+![image-20251028171322676](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251028171322676.png)
 
 自定义RedisTemplate序列化方式
 
@@ -317,9 +317,9 @@ class SpringredisApplicationTests {
 
 ## 3. StringRedisTemplate序列化
 
-![image-20251031205242941](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251031205242941.png)
+![image-20251031205242941](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251031205242941.png)
 
-![image-20251028185600659](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251028185600659.png)
+![image-20251028185600659](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251028185600659.png)
 
 ```java
 package com.projectprac.springredis;

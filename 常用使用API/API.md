@@ -14,7 +14,7 @@
 
 ## 1. 拷贝不同对象的属性：BeanUtil.copyProperties(..,T.class)
 
-![image-20251107141526807](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251107141526807.png)
+![image-20251107141526807](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251107141526807.png)
 
 
 

@@ -2,13 +2,13 @@
 
 ## 0.
 
-![屏幕截图(1372)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1372).png)
+![屏幕截图(1372)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1372).png)
 
 
 
 登陆校验所有功能代码再这5个page中
 
-![image-20251029155732452](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251029155732452.png)
+![image-20251029155732452](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251029155732452.png)
 
 ## 1.实现登录校验拦截器
 
@@ -18,31 +18,31 @@
 
 流程图：看看得了
 
-![image-20251029163732317](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251029163732317.png)
+![image-20251029163732317](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251029163732317.png)
 
 **前后端交互**
 
-![image-20251111131459818](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251111131459818.png)
+![image-20251111131459818](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251111131459818.png)
 
 
 
 具体看这六个代码，梳理流程，核心就是看代码：
 
-![屏幕截图(1380)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1380).png)
+![屏幕截图(1380)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1380).png)
 
 
 
 ### 拦截器优化
 
-![image-20251110200340286](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251110200340286.png)
+![image-20251110200340286](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251110200340286.png)
 
-![image-20251103160745179](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251103160745179.png)
+![image-20251103160745179](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251103160745179.png)
 
 
 
 依旧看代码：
 
-![image-20251103160848518](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251103160848518.png)
+![image-20251103160848518](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251103160848518.png)
 
 
 
@@ -50,7 +50,7 @@
 
 ## 1. 概览
 
-![image-20251103163902987](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251103163902987.png)
+![image-20251103163902987](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251103163902987.png)
 
 
 ## 2.  添加商户缓存
@@ -128,7 +128,7 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
 
 2.  返回的响应结果要的数据是List集合类型，如果是String就要tolist，List就直接返回，set就遍历set存到一个list中
 
-、![屏幕截图(1386)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1386).png)
+、![屏幕截图(1386)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1386).png)
 
 
 
@@ -136,25 +136,25 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
 
 
 
-![image-20251104104001934](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251104104001934.png)
+![image-20251104104001934](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251104104001934.png)
 
 主动更新策略
 
-![image-20251104104031992](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251104104031992.png)
+![image-20251104104031992](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251104104031992.png)
 
 第一种策略：
 
-![image-20251104105122540](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251104105122540.png)
+![image-20251104105122540](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251104105122540.png)
 
 先操作数据库再删除缓存，对于线程安全问题的可能性会最低
 
-![屏幕截图(1391)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1391).png)
+![屏幕截图(1391)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1391).png)
 
 
 
 ## 5.实现商铺缓存与数据库的双写模式
 
-![image-20251104142359224](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251104142359224.png)
+![image-20251104142359224](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251104142359224.png)
 
 **先操作数据库，再删除缓存**
 
@@ -194,7 +194,7 @@ service:
 
 
 
-![image-20251104143404480](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251104143404480.png)
+![image-20251104143404480](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251104143404480.png)
 
 最后还是采用第一种方式
 
@@ -202,7 +202,7 @@ service:
 
 方案：缓存null值
 
-![image-20251104150217794](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251104150217794.png)
+![image-20251104150217794](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251104150217794.png)
 
 ```java
 public Shop queryWithMutex(Long id) {
@@ -242,13 +242,13 @@ public Shop queryWithMutex(Long id) {
 
 总结
 
-![image-20251104152533192](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251104152533192.png)
+![image-20251104152533192](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251104152533192.png)
 
 
 
 ## 8.缓存雪崩
 
-![image-20251104153829306](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251104153829306.png)
+![image-20251104153829306](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251104153829306.png)
 
 
 
@@ -256,21 +256,21 @@ public Shop queryWithMutex(Long id) {
 
 **缓存击穿问题**也叫热点Key问题，就是一个被**高并发访问**并且**缓存重建业务比较复杂**的key突然失效了，无法在缓存中查到，然后就会往下查数据库，无数的请求访问会给数据库带来巨大的冲击。
 
-![屏幕截图(1400)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1400).png)
+![屏幕截图(1400)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1400).png)
 
 
 
-![image-20251104165521548](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251104165521548.png)
+![image-20251104165521548](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251104165521548.png)
 
 
 
 ## 10.利用互斥锁解决缓存击穿问题
 
-![image-20251104190453950](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251104190453950.png)
+![image-20251104190453950](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251104190453950.png)
 
 看这个板块的的代码：
 
-![image-20251104191000498](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251104191000498.png)
+![image-20251104191000498](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251104191000498.png)
 
 ```java
 public Shop queryWithMutex(Long id) {
@@ -335,19 +335,19 @@ public Shop queryWithMutex(Long id) {
 
 就算锁获取过期，也照样返回店铺信息，防止出现击穿问题
 
-![image-20251105195525515](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251105195525515.png)
+![image-20251105195525515](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251105195525515.png)
 
 看代码吧：
 
-![image-20251105210249918](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251105210249918.png)
+![image-20251105210249918](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251105210249918.png)
 
 100ms内200次请求的效果：几乎一半是旧数据，一半是新数据
 
-![image-20251107174331450](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251107174331450.png)
+![image-20251107174331450](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251107174331450.png)
 
 ## 12.封装工具类解决缓存问题
 
- ![image-20251106102853334](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251106102853334.png)
+ ![image-20251106102853334](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251106102853334.png)
 
 
 
@@ -355,13 +355,13 @@ public Shop queryWithMutex(Long id) {
 
 ## 01.全局ID生成器
 
-![image-20251107204509516](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251107204509516.png)
+![image-20251107204509516](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251107204509516.png)
 
 
 
 全局唯一ID生成策略
 
-![image-20251110143644864](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251110143644864.png)
+![image-20251110143644864](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251110143644864.png)
 
 ## 02.Redis实现全局唯一ID
 
@@ -434,31 +434,31 @@ void testRedisIdWorker() throws InterruptedException {
 }
 ```
 
-![image-20251110143015461](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251110143015461.png)
+![image-20251110143015461](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251110143015461.png)
 
-![image-20251110143042934](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251110143042934.png)
+![image-20251110143042934](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251110143042934.png)
 
 
 
 ## 3. 优惠卷秒杀：添加优惠卷
 
-![image-20251110191620746](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251110191620746.png)
+![image-20251110191620746](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251110191620746.png)
 
-![image-20251110191632126](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251110191632126.png)
+![image-20251110191632126](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251110191632126.png)
 
 后台测试：
 
-![image-20251110191452428](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251110191452428.png)
+![image-20251110191452428](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251110191452428.png)
 
 
 
 ## 4. 实现（秒杀）基本下单功能
 
-![image-20251110191717276](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251110191717276.png)
+![image-20251110191717276](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251110191717276.png)
 
 
 
-![image-20251110201745496](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251110201745496.png)
+![image-20251110201745496](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251110201745496.png)
 
 
 
@@ -466,7 +466,7 @@ void testRedisIdWorker() throws InterruptedException {
 
 **CAS法**
 
-![image-20251111123002975](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251111123002975.png)
+![image-20251111123002975](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251111123002975.png)
 
 
 
@@ -478,7 +478,7 @@ void testRedisIdWorker() throws InterruptedException {
 
 这里是一人多单
 
-![image-20251111132824188](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251111132824188.png)
+![image-20251111132824188](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251111132824188.png)
 
 
 
@@ -490,7 +490,7 @@ void testRedisIdWorker() throws InterruptedException {
 
 看代码：
 
-![image-20251111153633212](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251111153633212.png)
+![image-20251111153633212](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251111153633212.png)
 
 
 
@@ -498,21 +498,21 @@ void testRedisIdWorker() throws InterruptedException {
 
 跨JVM，会出现线程安全问题
 
-![image-20251111174235064](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251111174235064.png)
+![image-20251111174235064](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251111174235064.png)
 
 
 
 ## 9. 分布式锁-基本原理和不同实现方式对比
 
-![image-20251113142302512](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251113142302512.png)
+![image-20251113142302512](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251113142302512.png)
 
 
 
-![image-20251113142312636](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251113142312636.png)
+![image-20251113142312636](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251113142312636.png)
 
 
 
-![image-20251113142519025](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251113142519025.png)
+![image-20251113142519025](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251113142519025.png)
 
 
 
@@ -522,7 +522,7 @@ SET key value NX EX 10
 
 SET lock thread1 NX EX 10
 
-![image-20251113150254453](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251113150254453.png)
+![image-20251113150254453](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251113150254453.png)
 
 
 
@@ -530,47 +530,47 @@ SET lock thread1 NX EX 10
 
 锁类代码：
 
-![屏幕截图(1471)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1471).png)
+![屏幕截图(1471)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1471).png)
 
 业务层代码：
 
-![image-20251113164101605](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251113164101605.png)
+![image-20251113164101605](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251113164101605.png)
 
 
 
 ## 12. redis分布式锁误删问题
 
-![image-20251113165110884](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251113165110884.png)
+![image-20251113165110884](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251113165110884.png)
 
 
 
 ## 13.解决误删问题（思路看12,）
 
-![image-20251113170827371](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251113170827371.png)
+![image-20251113170827371](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251113170827371.png)
 
 ## 14. 判断锁标识和释放锁的命令要具有原子性，中间不能有间隔
 
 判断锁标识和释放锁的命令要具有原子性，中间不能有间隔
 
-![image-20251117160458769](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251117160458769.png)
+![image-20251117160458769](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251117160458769.png)
 
 
 
 ## 15 Lua脚本解决多条命令原子性问题
 
-![image-20251114144028359](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251114144028359.png)
+![image-20251114144028359](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251114144028359.png)
 
-![image-20251114144001880](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251114144001880.png)
+![image-20251114144001880](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251114144001880.png)
 
 ## 16.java调用Lua脚本改造分布式锁
 
-![image-20251114150732246](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251114150732246.png)
+![image-20251114150732246](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251114150732246.png)
 
 代码：直接到idea里面看
 
-![image-20251114154351407](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251114154351407.png)
+![image-20251114154351407](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251114154351407.png)
 
-![image-20251114154358697](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251114154358697.png)
+![image-20251114154358697](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251114154358697.png)
 
 
 
@@ -578,13 +578,13 @@ SET lock thread1 NX EX 10
 
 ## Redisson配置类
 
-![image-20260326171553114](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20260326171553114.png)
+![image-20260326171553114](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20260326171553114.png)
 
 ## 17. redisson解释
 
-![image-20251117165123257](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251117165123257.png)
+![image-20251117165123257](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251117165123257.png)
 
-![image-20251117161047285](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251117161047285.png)
+![image-20251117161047285](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251117161047285.png)
 
 
 
@@ -592,7 +592,7 @@ SET lock thread1 NX EX 10
 
 直接替换自定义锁：
 
-![image-20251117171504986](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251117171504986.png)
+![image-20251117171504986](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251117171504986.png)
 
 
 
@@ -600,9 +600,9 @@ SET lock thread1 NX EX 10
 
 **两个Lua脚本**：释放锁和获取锁
 
-![image-20251117174732168](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251117174732168.png)
+![image-20251117174732168](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251117174732168.png)
 
-![image-20251117174648249](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251117174648249.png)
+![image-20251117174648249](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251117174648249.png)
 
 
 
@@ -610,11 +610,11 @@ SET lock thread1 NX EX 10
 
 WatchDog机制：自我更新锁的释放时间
 
-![image-20251117180411116](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251117180411116.png)
+![image-20251117180411116](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251117180411116.png)
 
 原理流程图：
 
-![image-20251117182859409](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251117182859409.png)
+![image-20251117182859409](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251117182859409.png)
 
 
 
@@ -624,21 +624,21 @@ PS:源码分析过于冗杂，需要时再看
 
 **一致性问题**
 
-![image-20251117200519960](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251117200519960.png)
+![image-20251117200519960](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251117200519960.png)
 
 
 
-![image-20251117200500371](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251117200500371.png)
+![image-20251117200500371](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251117200500371.png)
 
 
 
 ## 22. 异步秒杀思路
 
-![image-20251117203551504](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251117203551504.png)
+![image-20251117203551504](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251117203551504.png)
 
 
 
-![image-20251117203702570](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251117203702570.png)
+![image-20251117203702570](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251117203702570.png)
 
 
 
@@ -646,11 +646,11 @@ PS:源码分析过于冗杂，需要时再看
 
 
 
-![image-20251118152209382](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251118152209382.png)
+![image-20251118152209382](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251118152209382.png)
 
 
 
-![image-20251118152449192](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251118152449192.png)
+![image-20251118152449192](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251118152449192.png)
 
 
 
@@ -658,15 +658,15 @@ PS:源码分析过于冗杂，需要时再看
 
 
 
-![image-20251118181722438](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251118181722438.png)
+![image-20251118181722438](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251118181722438.png)
 
 这里的锁因为没必要了
 
-![image-20251118181814476](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251118181814476.png)
+![image-20251118181814476](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251118181814476.png)
 
 创建订单的业务方法，其实只有扣减库存和保存订单信息的mybatis-plus操作就行了，其他判断多余
 
-![image-20251118181906012](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251118181906012.png)
+![image-20251118181906012](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251118181906012.png)
 
 
 
@@ -674,15 +674,15 @@ PS:源码分析过于冗杂，需要时再看
 
 ## 25. 认识消息队列
 
-![image-20251119144352117](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251119144352117.png)
+![image-20251119144352117](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251119144352117.png)
 
 
 
 ## 27. PubSub 实现消息队列
 
-![image-20251119150508980](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251119150508980.png)
+![image-20251119150508980](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251119150508980.png)
 
-![image-20251119150500109](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251119150500109.png)
+![image-20251119150500109](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251119150500109.png)
 
 
 
@@ -690,43 +690,43 @@ PS:源码分析过于冗杂，需要时再看
 
 发送消息的命令
 
-![image-20251119153637782](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251119153637782.png)
+![image-20251119153637782](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251119153637782.png)
 
 
 
 读取消息的方式之一：
 
-![image-20251119154503675](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251119154503675.png)
+![image-20251119154503675](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251119154503675.png)
 
 实例：
 
-![image-20251119154525071](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251119154525071.png)
+![image-20251119154525071](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251119154525071.png)
 
 特点：
 
-![image-20251119154539737](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251119154539737.png)
+![image-20251119154539737](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251119154539737.png)
 
 
 
 ## 29. Stream的消费组模式
 
-![image-20251119160600026](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251119160600026.png)
+![image-20251119160600026](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251119160600026.png)
 
 每个消费者都有一个pending-list
 
-![image-20251119155348375](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251119155348375.png)
+![image-20251119155348375](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251119155348375.png)
 
 
 
-![image-20251119160059544](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251119160059544.png)
+![image-20251119160059544](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251119160059544.png)
 
 最后一条看左下角： 0，指定id从pending-list中获取已消费但未确认的消息，从pending-list中的第一个消息开始
 
-![image-20251119160836185](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251119160836185.png)
+![image-20251119160836185](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251119160836185.png)
 
 **伪代码**
 
-![image-20251119161404172](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251119161404172.png)
+![image-20251119161404172](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251119161404172.png)
 
 
 
@@ -734,13 +734,13 @@ PS:源码分析过于冗杂，需要时再看
 
 这个应该是最终版本
 
-![image-20251120140333636](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251120140333636.png)
+![image-20251120140333636](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251120140333636.png)
 
 
 
 seckillVoucher 是主线程，基于redis完成秒杀资格判断的模块代码，子线程是继承了 Runnable()的内部类
 
-![image-20251120141036447](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251120141036447.png)
+![image-20251120141036447](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251120141036447.png)
 
 
 
@@ -750,7 +750,7 @@ seckillVoucher 是主线程，基于redis完成秒杀资格判断的模块代码
 
 blogcontroller 保存笔记信息，Uploadcontroller 保存照片到前端服务器中(该项目就是本地),  最后一个是定义常量 ：比如保存图片在本地的地址
 
-![image-20251120201117129](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251120201117129.png)
+![image-20251120201117129](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251120201117129.png)
 
 
 
@@ -758,7 +758,7 @@ blogcontroller 保存笔记信息，Uploadcontroller 保存照片到前端服务
 
 第一个函数是查列表，第二个函数是查具体的内容
 
-![image-20251121125645196](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251121125645196.png)
+![image-20251121125645196](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251121125645196.png)
 
 
 
@@ -766,11 +766,11 @@ blogcontroller 保存笔记信息，Uploadcontroller 保存照片到前端服务
 
 实现点赞接口：
 
-![image-20251121150109621](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251121150109621.png)
+![image-20251121150109621](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251121150109621.png)
 
 在具体查询笔记和页查询笔记时，添加 isLike属性标记，是否已经点过赞
 
-![image-20251121150246242](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251121150246242.png)
+![image-20251121150246242](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251121150246242.png)
 
 
 
@@ -778,11 +778,11 @@ blogcontroller 保存笔记信息，Uploadcontroller 保存照片到前端服务
 
 将存点赞的set换成能排行的sorted set 
 
-![image-20251125195139092](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251125195139092.png)
+![image-20251125195139092](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251125195139092.png)
 
 业务逻辑：
 
-![image-20251125195053191](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251125195053191.png)
+![image-20251125195053191](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251125195053191.png)
 
 **根据id查询用户时**，mybatis的方法变了 
 
@@ -792,7 +792,7 @@ blogcontroller 保存笔记信息，Uploadcontroller 保存照片到前端服务
 
 根据接口文档实现两个接口，不涉及redis
 
-![image-20251125210510951](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251125210510951.png)
+![image-20251125210510951](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251125210510951.png)
 
 
 
@@ -800,23 +800,23 @@ blogcontroller 保存笔记信息，Uploadcontroller 保存照片到前端服务
 
 核心接口：
 
-![image-20251127162530340](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251127162530340.png)
+![image-20251127162530340](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251127162530340.png)
 
 关注的接口也要修改：
 
-![image-20251127162607029](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251127162607029.png)
+![image-20251127162607029](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251127162607029.png)
 
 
 
 ## 7. feed流实现方案分析
 
-![image-20251127181455495](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251127181455495.png)
+![image-20251127181455495](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251127181455495.png)
 
-![image-20251127181503636](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251127181503636.png)
+![image-20251127181503636](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251127181503636.png)
 
-![image-20251127181527145](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251127181527145.png)
+![image-20251127181527145](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251127181527145.png)
 
-![image-20251127181539620](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251127181539620.png)
+![image-20251127181539620](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251127181539620.png)
 
 
 
@@ -824,11 +824,11 @@ blogcontroller 保存笔记信息，Uploadcontroller 保存照片到前端服务
 
 **不能采用传统的分页模式**
 
-![屏幕截图(1584)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1584).png)
+![屏幕截图(1584)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1584).png)
 
 主要内容：**修改新增博客的接口，使其能发送到粉丝的收件箱(redis的)中**
 
-![image-20251127200932850](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251127200932850.png)
+![image-20251127200932850](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251127200932850.png)
 
 
 
@@ -844,33 +844,33 @@ ZREVRANGEBYCORE z1 1000 0 WITHSCORES LIMIT 0 3
 
 
 
-![image-20251127202457134](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251127202457134.png)
+![image-20251127202457134](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251127202457134.png)
 
 参数设置思路：
 
-![image-20251127203455557](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251127203455557.png)
+![image-20251127203455557](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251127203455557.png)
 
-![image-20251127203425238](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251127203425238.png)
+![image-20251127203425238](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251127203425238.png)
 
 ## 10.实现滚动分页查询
 
 主要代码和思路：
 
-![image-20251127213420300](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251127213420300.png)
+![image-20251127213420300](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251127213420300.png)
 
-![image-20251127213440625](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251127213440625.png)
+![image-20251127213440625](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251127213440625.png)
 
 
 
 ## 11. 附近商铺：GEO数据结构的基本用法
 
-![image-20251128121503569](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251128121503569.png)
+![image-20251128121503569](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251128121503569.png)
 
-![image-20251130153057730](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251130153057730.png)
+![image-20251130153057730](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251130153057730.png)
 
-![image-20251130153117673](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251130153117673.png)
+![image-20251130153117673](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251130153117673.png)
 
-![image-20251128121528693](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251128121528693.png)
+![image-20251128121528693](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251128121528693.png)
 
 
 
@@ -878,7 +878,7 @@ ZREVRANGEBYCORE z1 1000 0 WITHSCORES LIMIT 0 3
 
 看这个测试代码：
 
-![image-20251130155931418](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251130155931418.png)
+![image-20251130155931418](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251130155931418.png)
 
 
 
@@ -886,26 +886,26 @@ ZREVRANGEBYCORE z1 1000 0 WITHSCORES LIMIT 0 3
 
 根据商户类型和经纬度坐标x，y 查附近复合要求的所有店铺，获取店铺id集合，再根据from和end分页查询数据库；还有一些异常处理需要注意
 
-![image-20251130175051667](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251130175051667.png)
+![image-20251130175051667](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251130175051667.png)
 
 
 
 ## 15. BitMap功能演示
 
-![image-20251201165538221](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251201165538221.png)
+![image-20251201165538221](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251201165538221.png)
 
-![image-20251201165513224](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251201165513224.png)
+![image-20251201165513224](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251201165513224.png)
 
 
 
 ## 16. 实现用户签到功能代码
 
-![image-20251201173032856](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251201173032856.png)
+![image-20251201173032856](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251201173032856.png)
 
 
 
 ## 17. 统计连续签到
 
-![image-20251201173544036](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251201173544036.png)
+![image-20251201173544036](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251201173544036.png)
 
-![image-20251201184621312](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251201184621312.png)
+![image-20251201184621312](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251201184621312.png)

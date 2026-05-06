@@ -4,11 +4,11 @@
 
 jdbc是接口，但并没有提供具体的实现
 
-![image-20251002091453863](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251002091453863.png)
+![image-20251002091453863](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251002091453863.png)
 
 ## 1.DriverManager
 
-![屏幕截图(1062)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1062).png)
+![屏幕截图(1062)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1062).png)
 
 
 
@@ -18,7 +18,7 @@ jdbc是接口，但并没有提供具体的实现
 
 2. 管理事务
 
-![image-20250930195829049](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20250930195829049.png)
+![image-20250930195829049](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20250930195829049.png)
 
 ``` java
 package quickstart;
@@ -130,7 +130,7 @@ public class JDBC_4ResultSet {
 
 preparaStatement.set会将参数里的 ' 等字符进行转义，变成字符类型
 
-![image-20251001145144616](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251001145144616.png)
+![image-20251001145144616](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251001145144616.png)
 
 ```java
 package quickstart;
@@ -187,13 +187,13 @@ public class JDBC_5PreparedStatement {
 
 ## 5.数据连接池
 
-![image-20251001154607621](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251001154607621.png)
+![image-20251001154607621](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251001154607621.png)
 
 
 
 找不到配置文件的加载路径的时候
 
-![image-20251001170416399](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251001170416399.png)
+![image-20251001170416399](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251001170416399.png)
 
 ```java
 
@@ -243,7 +243,7 @@ public class DruidDemo {
 
 ## 6.实战：查询和增加 （增加时需要参数
 
-![屏幕截图(1075)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1075).png)
+![屏幕截图(1075)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1075).png)
 
 ```java
 package example;
@@ -318,6 +318,6 @@ public class TEST {
 
 ## 7.mybatis vs jdbc
 
-![image-20251002092333337](C:\Users\19776\AppData\Roaming\Typora\typora-user-images\image-20251002092333337.png)
+![image-20251002092333337](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251002092333337.png)
 
-![屏幕截图(1096)](C:\Users\19776\Pictures\Screenshots\屏幕截图(1096).png)
+![屏幕截图(1096)](https://cdn.statically.io/gh/Lisincor/image-hosting@main//%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(1096).png)
