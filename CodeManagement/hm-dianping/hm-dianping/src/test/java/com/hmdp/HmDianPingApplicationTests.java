@@ -15,14 +15,14 @@ import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-import static com.hmdp.utils.RedisConstants.CACHE_SHOP_KEY;
-import static com.hmdp.utils.RedisConstants.LOCK_SHOP_KEY;
+import static com.hmdp.utils.RedisConstants.*;
 
 @SpringBootTest
 class HmDianPingApplicationTests {
@@ -103,4 +103,10 @@ class HmDianPingApplicationTests {
         }
     }
 
+    @Test
+    void TT()
+    {
+        Set<String> shoptypeJson = stringRedisTemplate.opsForZSet().range(CACHE_SHOP_TYPE_KEY,0,-1);
+        System.out.println(shoptypeJson);
+    }
 }
