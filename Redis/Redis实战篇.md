@@ -154,7 +154,7 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
 
 ## 5.实现商铺缓存与数据库的双写模式
 
-![image-20251104142359224](https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251104142359224.png)
+<img src="https://cdn.statically.io/gh/Lisincor/image-hosting@main//image-20251104142359224.png" alt="image-20251104142359224"  />
 
 **先操作数据库，再删除缓存**
 

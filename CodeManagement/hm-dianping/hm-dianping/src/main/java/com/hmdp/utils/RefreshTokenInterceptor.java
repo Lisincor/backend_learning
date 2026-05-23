@@ -44,7 +44,7 @@ public class RefreshTokenInterceptor implements HandlerInterceptor {
         //4.存在，将用户信息转换为UserDTO对象
         UserDTO userDTO = BeanUtil.fillBeanWithMap(userMap, new UserDTO(), false);//将map中的数据填充到UserDTO对象中,false表示不忽略异常
 
-        //5.保存用户信息到ThreadLocal
+        //5.保存用户信息到ThreadLocal，供同一线程使用
         UserHolder.saveUser(userDTO);
 
         //6.刷新token的过期时间
