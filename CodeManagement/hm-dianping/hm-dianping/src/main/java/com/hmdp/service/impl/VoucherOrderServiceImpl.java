@@ -153,6 +153,7 @@ public class VoucherOrderServiceImpl extends ServiceImpl<VoucherOrderMapper, Vou
 //        }
 //    }
 
+    //基于Redis完成秒杀资格判断 (主线程)
     private void handlerVoucherOrder(VoucherOrder voucherOrder) {
         //1. 获取用户id
         Long userId = voucherOrder.getUserId();
